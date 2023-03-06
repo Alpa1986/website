@@ -9,13 +9,14 @@ body {
 
 .video-header {
   background: #161b22;
-  padding: 1.5em 2em 1.5em 1.5em;
+  padding: 1.5em 1.5em 1.5em 1.5em;
   font-family: monospace;
   color: green;
   font-weight: 600;
+  font-size: 1rem;
 }
 
-.container a {
+.video-container a {
   text-decoration: none;
 }
 
@@ -26,30 +27,73 @@ body {
   font-family: monospace;
   color: white;
   line-height: 25px;
-  position: relative;
 }
 
-.container {
+.video-container {
   width: 50%;
   margin: auto;
 }
 
 .video-inhalt:target {
-  height: 500px;
+  height: 550px;
 }
 
 .IconCloseWindow {
-  position: absolute;
-  color: white;
-  display: flex;
-  right: 20px;
-  top: 9px;
+  color: rgb(150, 150, 150);
   transition: height 1s ease-out;
-  font-size: 1.5em;
-  opacity: 0.5;
-  font-weight: 600;
+  padding: 5px 48%;
+  background-color: black;
 }
 
 .IconCloseWindow:hover {
-  opacity: 1;
+  background-color: hsl(215, 21%, 7%);
+  color: rgb(199, 199, 199);
+}
+
+iframe {
+  border-top: 1px solid #161b22;
+}
+
+table,
+td {
+  width: 50%;
+  margin: auto;
+  color: white;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(45 45 45);
+  margin-bottom: 1rem;
+}
+
+td {
+  padding: 1rem;
+}
+
+.table-poster {
+  width: 25%;
+  padding: 0%;
+}
+
+.table-poster img {
+  width: 210px;
+  margin-right: 2rem;
+}
+
+.table-info-left {
+  color: chartreuse;
+  width: 25%;
+}
+
+p {
+  width: 50%;
+  margin: auto;
+  color: rgb(201, 201, 201);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 2rem;
+  background-color: rgb(45 45 45);
+  padding: 1rem 0;
+  margin-bottom: 1rem;
 }
