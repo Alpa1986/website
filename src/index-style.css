@@ -5,7 +5,11 @@ body {
  /*  display: flex; */
 }
 ol {
-  list-style:
+  
+}
+
+.star {
+  height: 1.7rem;
 }
 
 li {
@@ -19,8 +23,6 @@ li {
 }
 a {
   text-decoration: none;
+  color: azure;
 }
 
-a :hover {
-  color: yellowgreen;
-}
