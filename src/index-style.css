@@ -11,15 +11,9 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: rgba(208, 48, 244, 0.487);
-  padding 5%;
+  padding 3%;
   align-items: center;
 }
-.imgcontainerheader {width: 80px;
-padding: 5%;
-}
-.imgcontainerheader:hover {transform: scale(1.8);
-transition: 1s;}
-
 
 .nav {
   list-style: none;
