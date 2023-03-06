@@ -10,6 +10,11 @@ ol {
 
 .star {
   height: 1.7rem;
+/*   display: flex;
+  flex-direction: row; */
+  position: absolute;
+  right: 50px;
+
 }
 
 li {
