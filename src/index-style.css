@@ -41,14 +41,13 @@ ul {
 }
 
 .video-inhalt:target {
-  height: 165px;
+  height: 500px;
 }
 
 .IconCloseWindow {
   position: absolute;
   color: white;
   display: flex;
-  /*justify-content: flex-end;*/
   right: 20px;
   top: 9px;
   transition: height 1s ease-out;
