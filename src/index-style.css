@@ -12,7 +12,6 @@ body {
   padding: 1.5em 2em 1.5em 1.5em;
   font-family: monospace;
   color: green;
-  border-radius: 6px;
   font-weight: 600;
 }
 
@@ -31,11 +30,6 @@ body {
 }
 
 .container {
-  border-color: #30363d;
-  border-radius: 6px;
-  border-style: solid;
-  border-width: 1px;
-  margin-bottom: 0.5em;
   width: 50%;
   margin: auto;
 }
