@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(61, 59, 59);
+  color: orangered;
+  text-align: center;
+ /*  display: flex; */
+}
+ul {
+  text-decoration: none;
+}
