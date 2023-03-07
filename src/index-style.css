@@ -1,19 +1,49 @@
-* {
-  margin: 0;
+
+main, body {
+	width: 100vw;
+	height: 100vh;
 }
+
+h1 {
+	font-size: 52px;
+}
+li p {
+	color: rgb(40, 43, 43);
+	
+}
+.regie {
+	font-size: 20px;
+	color: purple;
+}
+
+.regie:hover  {
+	color:  red;
+}
+.hauptbesetzung  {
+	font-size: 20px;
+	color: purple;
+}
+
 body {
-  background-color: rgb(61, 59, 59);
+  background-color: rgb(24, 23, 23);
   color: orangered;
   text-align: center;
-  /*  display: flex; */
+
+ /*  display: flex; */
+}
+ol {
+position: absolute;
+right: 50px;
+  
 }
 
 .star {
   height: 1.7rem;
-  /*   display: flex;
+/*   display: flex;
   flex-direction: row; */
   position: absolute;
-  right: 50px;
+  right: 14px;
+
 }
 
 li {
@@ -21,15 +51,38 @@ li {
   margin: 10px;
   padding: 20px;
   border-style: groove;
-  border-color: black;
+  border-color: rgb(175, 36, 36);
   background-color: grey;
-}
-a {
-  text-decoration: none;
-  color: azure;
+	width: 50em;
+	height: 10em;
+	margin: auto;
+	
+  
 }
 
-.containerheader {
+.hover1 {
+
+	background-color: rgb(209, 204, 204);
+}
+a {
+	font-size: 46px;
+  text-decoration: none;
+  color: rgb(40, 43, 43);
+  
+}
+nav {
+  margin: auto;
+  width: 100vw;
+ display: flex;
+ justify-content: center;
+}
+
+img {
+  width: 40px;
+  float: left;
+}
+
+/* .containerheader {
   display: flex;
   justify-content: space-between;
   background-color: rgba(208, 48, 244, 0.487);
@@ -52,3 +105,4 @@ a {
 .nav1 {
   border: 5px solid orangered;
 }
+ */
