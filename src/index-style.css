@@ -14,9 +14,13 @@ body {
   padding 3%;
   align-items: center;
 }
+.img2containerheader { display:flex; justify-content: center; 
+}
+.img2containerheader:hover {transform: scale(2.5); transition: 3s; }
 
 .nav {
   list-style: none;
+  padding-right: 30px;
 }
 
 ul {
