@@ -82,27 +82,3 @@ img {
   float: left;
 }
 
-/* .containerheader {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgba(208, 48, 244, 0.487);
-  padding: 3%;
-  align-items: center;
-}
-.img2containerheader {
-  display: flex;
-  justify-content: center;
-}
-.img2containerheader:hover {
-  transform: scale(2.5);
-  transition: 3s;
-}
-
-.nav {
-  list-style: none;
-  padding-right: 30px;
-}
-.nav1 {
-  border: 5px solid orangered;
-}
- */
