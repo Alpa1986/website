@@ -1,20 +1,24 @@
+* {
+  margin: 0;
+}
 body {
   background-color: rgb(61, 59, 59);
   color: orangered;
   text-align: center;
- /*  display: flex; */
+  /*  display: flex; */
 }
+ul {
+}
+
 ol {
-  
 }
 
 .star {
   height: 1.7rem;
-/*   display: flex;
+  /*   display: flex;
   flex-direction: row; */
   position: absolute;
   right: 50px;
-
 }
 
 li {
@@ -24,10 +28,32 @@ li {
   border-style: groove;
   border-color: black;
   background-color: grey;
-  
 }
 a {
   text-decoration: none;
   color: azure;
 }
 
+.containerheader {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(208, 48, 244, 0.487);
+  padding: 3%;
+  align-items: center;
+}
+.img2containerheader {
+  display: flex;
+  justify-content: center;
+}
+.img2containerheader:hover {
+  transform: scale(2.5);
+  transition: 3s;
+}
+
+.nav {
+  list-style: none;
+  padding-right: 30px;
+}
+.nav1 {
+  border: 5px solid orangered;
+}
