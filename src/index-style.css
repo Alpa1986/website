@@ -228,3 +228,18 @@ td {
   font-weight: bold;
   border-radius: 0 30px 0 0;
 }
+
+a .backtotop {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  width: 35px;
+  height: 40px;
+  padding: 10px;
+  float: right;
+  margin-right: 50px;
+}
+
+a .backtotop:hover {
+  transform: scale(1.05);
+}
