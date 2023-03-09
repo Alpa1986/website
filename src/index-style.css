@@ -1,27 +1,26 @@
-
-main, body {
-	width: 100vw;
-	height: 100vh;
+main,
+body {
+  width: 100vw;
+  height: 100vh;
 }
 
 h1 {
-	font-size: 52px;
+  font-size: 52px;
 }
 li p {
-	color: rgb(40, 43, 43);
-	
+  color: rgb(40, 43, 43);
 }
 .regie {
-	font-size: 20px;
-	color: purple;
+  font-size: 20px;
+  color: purple;
 }
 
-.regie:hover  {
-	color:  red;
+.regie:hover {
+  color: red;
 }
-.hauptbesetzung  {
-	font-size: 20px;
-	color: purple;
+.hauptbesetzung {
+  font-size: 20px;
+  color: purple;
 }
 
 body {
@@ -29,21 +28,18 @@ body {
   color: orangered;
   text-align: center;
 
- /*  display: flex; */
+  /*  display: flex; */
 }
 ol {
-position: absolute;
-right: 50px;
-  
+  position: absolute;
+  list-style-type: none;
 }
 
 .star {
-  height: 1.7rem;
-/*   display: flex;
-  flex-direction: row; */
   position: absolute;
-  right: 14px;
-
+  right: 30px;
+  top: 30px;
+  width: 40px;
 }
 
 li {
@@ -53,32 +49,33 @@ li {
   border-style: groove;
   border-color: rgb(175, 36, 36);
   background-color: grey;
-	width: 50em;
-	height: 10em;
-	margin: auto;
-	
-  
+  width: 50em;
+  height: 10em;
+  margin: auto;
+  position: relative;
 }
 
 .hover1 {
-
-	background-color: rgb(209, 204, 204);
+  background-color: rgb(209, 204, 204);
 }
 a {
-	font-size: 46px;
+  font-size: 46px;
   text-decoration: none;
   color: rgb(40, 43, 43);
-  
 }
 nav {
   margin: auto;
   width: 100vw;
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 img {
-  width: 40px;
+  width: 175px;
   float: left;
 }
 
+.hover,
+.hover1 {
+  margin-bottom: 25px;
+}
