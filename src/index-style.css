@@ -7,67 +7,19 @@ body {
 
 /* CSS von Ihor (Video) */
 
-.video-header {
-  background: #161b22;
-  padding: 1.5em 1.5em 1.5em 1.5em;
-  font-family: monospace;
-  color: green;
-  font-weight: 600;
-  font-size: 1rem;
+html {
+  scroll-behavior: smooth;
 }
 
-.video-container a {
-  text-decoration: none;
-}
-
-.video-inhalt {
-  transition: height 1s ease-out;
-  height: 0;
-  overflow: hidden;
-  font-family: monospace;
-  color: white;
-  line-height: 25px;
-}
-
-.video-container {
-  width: 50%;
+.sizar-content {
+  width: 55%;
+  min-width: 900px;
   margin: auto;
-}
-
-.video-inhalt:target {
-  height: 550px;
-}
-
-.IconCloseWindow {
-  color: rgb(150, 150, 150);
-  transition: height 1s ease-out;
-  padding: 5px 48%;
-  background-color: black;
-}
-
-.IconCloseWindow:hover {
-  background-color: hsl(215, 21%, 7%);
-  color: rgb(199, 199, 199);
-}
-
-iframe {
-  border-top: 1px solid #161b22;
-}
-
-table,
-td {
-  width: 50%;
-  margin: auto;
-  color: white;
-  font-size: 1.2rem;
-  text-align: left;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
   background-color: rgb(45 45 45);
-  margin-bottom: 1rem;
-}
-
-td {
-  padding: 1rem;
+  border: 1px solid;
+  margin-bottom: 2rem;
 }
 
 .table-poster {
@@ -77,7 +29,6 @@ td {
 
 .table-poster img {
   width: 210px;
-  margin-right: 2rem;
 }
 
 .table-info-left {
@@ -85,15 +36,82 @@ td {
   width: 25%;
 }
 
-p {
-  width: 50%;
-  margin: auto;
+.sizar-content p {
   color: rgb(201, 201, 201);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.2rem;
   text-align: left;
   line-height: 2rem;
-  background-color: rgb(45 45 45);
-  padding: 1rem 0;
-  margin-bottom: 1rem;
+  padding: 1rem;
+  /* margin: 0; */
+}
+
+.sizar-content table,
+td {
+  width: 100%;
+  color: white;
+  text-align: left;
+  line-height: 1rem;
+  border-collapse: collapse;
+}
+
+.sizar-content td {
+  padding: 1rem;
+}
+
+.sizar-content tr:nth-child(even) {
+  background-color: #242424;
+}
+
+.sizar-content h2 {
+  padding: 1rem;
+  margin: 0;
+  color: gold;
+  background-color: #161b22;
+}
+
+.sizar-content h3 {
+  color: green;
+  font-family: system-ui;
+  margin-bottom: 0;
+}
+
+.video-container a {
+  text-decoration: none;
+}
+
+.video-header {
+  background: #161b22;
+  padding: 1.5rem;
+  font-family: system-ui;
+  color: green;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.video-inhalt {
+  transition: height 0.3s ease-out;
+  height: 0;
+  overflow: hidden;
+  font-family: system-ui;
+  color: white;
+  line-height: 25px;
+}
+
+.video-inhalt:target {
+  height: 500px;
+}
+
+.IconCloseWindow {
+  color: rgb(150, 150, 150);
+  transition: height 1s ease-out;
+  padding: 5px 47.75%;
+  background-color: black;
+}
+
+.IconCloseWindow:hover {
+  background-color: hsl(215, 21%, 7%);
+  color: rgb(199, 199, 199);
+}
+
+.sizar-content iframe {
+  border-top: 1px solid #161b22;
 }
