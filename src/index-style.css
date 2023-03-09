@@ -33,7 +33,7 @@ body {
 ol {
   padding-inline-start: 0px;
   list-style-type: none;
-  width: 55%;
+  width: 12%;
 }
 
 .star {
@@ -70,7 +70,8 @@ nav {
 }
 
 img {
-  width: 175px;
+ height: 300px;
+  width: 200px;
   float: left;
 }
 
@@ -189,4 +190,7 @@ td {
 
 .sizar-content iframe {
   border-top: 1px solid #31353a;
+}
+.moviebilder {
+margin: 20px;
 }
